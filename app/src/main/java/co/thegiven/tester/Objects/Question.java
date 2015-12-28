@@ -1,4 +1,4 @@
-package co.thegiven.tester;
+package co.thegiven.tester.Objects;
 
 /**
  * Created by danielkim on 11/10/15.
@@ -14,6 +14,14 @@ public class Question {
         this.title = title;
         this.description = description;
         this.authorid = id;
+    }
+
+    public String getTitle() {
+        return this.title;
+    }
+
+    public String getDescription() {
+        return this.description;
     }
 
 }

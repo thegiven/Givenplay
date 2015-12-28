@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".Activities.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,11 +18,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Pickandchoose"
-            android:label="@string/title_activity_pickandchoose"></activity>
+            android:name=".Activities.Pickandchoose"
+            android:label="@string/title_activity_pickandchoose" />
         <activity
-            android:name=".Globalquestions"
-            android:label="@string/title_activity_globalquestions"></activity>
+            android:name=".Activities.Globalquestions"
+            android:label="@string/title_activity_globalquestions" />
+        <activity
+            android:name=".Activities.Playrooms"
+            android:label="@string/title_activity_playrooms"></activity>
     </application>
 
 </manifest>
